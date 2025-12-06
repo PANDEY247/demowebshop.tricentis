@@ -1,0 +1,26 @@
+{
+    "info": {
+        "name": "Ecommerce API Collection",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [
+        {
+            "name": "Login API",
+            "request": {
+                "method": "POST",
+                "url": {
+                    "raw": "https://api.demo.com/login"
+                }
+            }
+        },
+        {
+            "name": "Product List API",
+            "request": {
+                "method": "GET",
+                "url": {
+                    "raw": "https://api.demo.com/products"
+                }
+            }
+        }
+    ]
+}
